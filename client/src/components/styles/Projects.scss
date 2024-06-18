@@ -1,0 +1,32 @@
+@import '../../mixins.scss';
+.project {
+    padding: 2rem;
+    @include sm{
+      padding: 1.4rem;
+    }
+    &-heading {
+      text-align: left;
+      margin-bottom: 2rem;
+      margin-left: 10%;
+      h1 {
+        font-size: 2.5rem;
+        color: #efefef;
+      }
+      &::after{
+        content: '';
+        display: block;
+        width: 6rem;
+        height: 0.25rem;
+        background-color: #e0e0e0;
+        margin-top: 0.5rem;
+      }
+    }
+    .projects{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+    }
+  }
+  

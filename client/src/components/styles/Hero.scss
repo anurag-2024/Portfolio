@@ -1,0 +1,139 @@
+@import '../../mixins.scss';
+.hero {
+    background: url('../../assets/img/banner-bg.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0 7%;
+    @include sm{
+      flex-direction: column-reverse;
+      margin-bottom: 5rem;
+    }
+    &__content {
+      display: flex;
+      margin-top: 15%;
+      flex-direction: column;
+      .hero-text {
+        &-main {
+          font-size: 4rem;
+          font-weight: bold;
+          color: #ffffff;
+          p {
+            margin: 0;
+            font-size: 4rem;
+            @include md{
+               font-size: 2rem;
+            };
+          }
+  
+          span {
+            font-size: 4rem;
+            color: #680fc6;
+            margin-top: 1rem;
+            @include md{
+              font-size: 2rem;
+           };
+          }
+        }
+  
+        &-tagline {
+          margin-top: 1.5rem;
+          font-size: 1.2rem;
+          color: #666;
+          @include md{
+            font-size: 0.9rem;
+          };  
+        }
+        .hero-buttons {
+          display: flex;
+          gap: 1rem;
+          margin-top: 2rem;
+      
+          .hero-button-1,
+          .hero-button-2 {
+            button {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.5rem;
+              background-color: #680fc6;
+              color: #fff;
+              font-size: 1rem;
+              font-weight: 700;
+              padding: 0.75rem 1.5rem;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: background-color 0.3s ease, transform 0.3s ease;
+              @include md{
+                padding: 0.5rem 1rem;
+                font-size: 0.9rem;
+              }
+              &:hover {
+                background-color: #4a0a91;
+                transform: translateY(-3px);
+              }
+      
+              &:active {
+                transform: translateY(1px);
+              }
+      
+              svg {
+                font-size: 1.2rem;
+              }
+            }
+          }
+          .hero-button-1{
+            button{
+              background-color: transparent;
+              &:hover{
+                background-color: transparent;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    &__overlay {
+      display: flex;
+      align-items: end;
+      justify-content: center;
+      max-width: 50%;
+      @include md{
+        max-width: 40%;
+        align-items: center;
+      }
+      @include sm{
+        max-width: 80%;
+        align-items: center;
+      }
+      img {
+        width: 100%;
+        max-width: 500px;
+        margin: 30% 0 0 30%;
+        animation: updown 3s linear infinite;
+        @include sm{
+          margin: 0;
+        }
+      }
+      @keyframes updown {
+        0% {
+          transform: translateY(-20px);
+        }
+        50% {
+          transform: translateY(20px);
+        }
+        100% {
+          transform: translateY(-20px);
+        }
+      }
+      .txt-rotate > .wrap {
+        border-right: 0.08em solid #666;
+      }
+    }
+  }
+  

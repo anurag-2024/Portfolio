@@ -1,0 +1,67 @@
+
+
+$card-bg-color: #f4f4f4;
+$card-border-color: #ddd;
+$card-hover-bg-color: #eaeaea;
+$text-color: #333;
+$text-hover-color: #000;
+$transition-duration: 0.3s;
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 10rem;
+    margin: 1rem;
+    background-color: rgb(26, 26, 26);
+    border: 1px solid $card-border-color;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color $transition-duration, transform $transition-duration;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        border: 1.8px solid rgb(57, 57, 232);
+    }
+
+    img {
+        width: 3.8rem;
+        height: 3.8rem;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 0.5rem;
+        transition: transform $transition-duration;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    p {
+        margin: 0;
+        color: $text-color;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 1rem 0 0 0;
+        color: white;
+        transition: color $transition-duration;
+    }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+    .skill-card {
+        padding: 0.5rem;
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+}

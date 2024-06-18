@@ -1,0 +1,123 @@
+// styles/About.scss
+@import '../../mixins.scss';
+
+$primary-color: #333;
+$secondary-color: #fff;
+$bg-color: #f4f4f4;
+$heading-color: #222;
+$text-color: #555;
+$accent-color: #007BFF;
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: transparent;
+  @include md{
+    padding: 2rem;
+  }
+  @include sm{
+    padding: 1rem;
+  }
+  &-heading {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 14%;
+    margin-bottom: 2rem;
+
+    &-container {
+      width: max-content;
+      height: max-content;
+      padding: 0.8rem 1.6rem;
+      background-color: $primary-color;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+      h1 {
+        color: $secondary-color;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0;
+        @include md{
+          font-size: 1.2rem;
+        }
+      }
+    }
+    &::after{
+        content: '';
+        display: block;
+        width: 10%;
+        height: 2px;
+        background-color: rgb(79, 78, 78);
+        margin-top: 1.5rem;
+    }
+  }
+
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    @include md{
+      flex-direction: column;
+    }
+    .about-text {
+      width: 50%;
+      margin-right: 2rem;
+      @include md{
+        width: 80%;
+      }
+      &-heading {
+        margin-bottom: 1rem;
+
+        h1 {
+          color: rgb(22 242 179);
+          font-size: 1.3rem;
+          font-weight: 600;
+        }
+      }
+
+      p {
+        color: white;
+        font-size: 1.1rem;
+        display: flex;
+        line-height: 1.6;
+        @include md{
+          font-size: 1rem;
+        }
+        @include sm{
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .about-img {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include md{
+        width: 80%;
+        margin-top: 2rem;
+      }
+      @include sm{
+        width: 100%;
+      }
+      img {
+        width: 18rem;
+        height: 18rem;
+        border-radius: 0.5rem;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        &:hover{
+            filter: grayscale(0%);
+             transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+$primary-color: #333;
+$secondary-color: #fff;
+$bg-color: #f4f4f4;
+$heading-color: #222;
+$carousel-bg-color: #eaeaea;
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('../../assets/img/color-sharp2.png') no-repeat center center/cover;
+
+    .skills-main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+       .skills-heading{
+           width: max-content; 
+           height: max-content;
+           padding: 0.8rem 1.6rem;
+           background-color: #333;
+           border-radius: 0.5rem;
+           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+           h2 {
+               color: white;
+               font-size: 1.2rem;
+               font-weight: 500;
+               margin: 0;
+           }
+       }
+    }
+
+    .skills-carousel {
+        width: 80%;
+        background-color: transparent;
+        padding: 1rem;
+        overflow: hidden;
+        justify-content: space-between;
+        .rfm-marquee-container {
+            .rfm-overlay::after,
+            .rfm-overlay::before {
+                background: none;
+            }
+        }
+        .react-fast-marquee {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+    .skills {
+        padding: 1rem;
+
+        .skills-main {
+            margin-bottom: 1rem;
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+
+        .skills-carousel {
+            padding: 0.5rem;
+        }
+    }
+}
