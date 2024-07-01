@@ -55,8 +55,9 @@ export const projects = [
         title: 'Portfolio',
         description: 'This is a portfolio website made with the help of React. Here you can find all the information about me and also you can see my projects and blogs. You can also contact me through the contact form. Also, you can see my resume and download it.',
         image: project7,
-        GitHub: '',
-        techStack: ['React', 'API']
+        GitHub: 'https://github.com/anurag-2024/Portfolio',
+        techStack: ['React', 'API'],
+        live: 'https://anuragpatel-portfolio.vercel.app/'
       },
       {
         id: 5,
