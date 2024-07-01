@@ -5,7 +5,7 @@ import project4 from '../assets/project/p4.png';
 import project5 from '../assets/project/p5.png';
 import project6 from '../assets/project/p6.png';
 import project7 from '../assets/project/p7.png';
-
+import project8 from '../assets/project/p8.png';
 export const projects = [
       {
         id: 1,
@@ -17,12 +17,13 @@ export const projects = [
         live: 'https://travel-hub-ruddy.vercel.app/'
       },
       {
-        id: 2,
-        title: 'EduVibe',
-        description: 'Here you can find different courses related to different fields and if you want to study from the course just add it to cart and do the payment and then enjoy your lessons.For payment razorpay is used so you can have multiple options to do payment. You can see your enrolled courses also in Profile section with the status of course.',
-        image: project2,
-        GitHub: 'https://github.com/anurag-2024/EduVibe',
-        techStack: ['React', 'NodeJs', 'MongoDB']
+        id: 8,
+        title: 'CryptEase',
+        description:'This project is a comprehensive Decentralized Finance (DeFi) Lending Platform where users can sign up, deposit funds using Razorpay, take loans, repay loans, invest in various cryptocurrencies, mint NFTs by watching videos, and buy/sell NFTs on the platform.',
+        image: project8,
+        GitHub: 'https://github.com/anurag-2024/CryptEase',
+        techStack: ['MERN', 'Solidity','Ethereum','Razorpay'],
+        live: 'https://crypt-ease.vercel.app/'
       },
       {
         id: 3,
@@ -32,6 +33,14 @@ export const projects = [
         GitHub: 'https://github.com/anurag-2024/iiitu-website',
         techStack: ['React', 'NodeJs', 'MongoDB'],
         live: 'https://iiitu-website.vercel.app/'
+      },
+      {
+        id: 2,
+        title: 'EduVibe',
+        description: 'Here you can find different courses related to different fields and if you want to study from the course just add it to cart and do the payment and then enjoy your lessons.For payment razorpay is used so you can have multiple options to do payment. You can see your enrolled courses also in Profile section with the status of course.',
+        image: project2,
+        GitHub: 'https://github.com/anurag-2024/EduVibe',
+        techStack: ['React', 'NodeJs', 'MongoDB']
       },
       {
         id: 4,
