@@ -8,18 +8,21 @@ export const work = [
         title: 'Backend Developer',
         company: 'IIIT Una',
         description: [
-        'Worked as a backend developer and made APIs for backend using Node.js',
-        'Implemented faculty and admin portal.Ensured faculty authentication on faculty portal and admin authentication on admin portal.'
+        'Developed backend APIs using Node.js to support faculty and admin portals.',
+        'Implemented secure authentication for faculty and admin portals.',
+        'Enhanced interactivity of the website through well-structured APIs.'
         ]
     },
     {
-        date: 'Jun 2024- Present',
+        date: 'Jun 2024- July 2024',
         icon: img2,
         title: 'Backend Developer',
         company: 'SharpCarrer Technologies',
         description: [
-        'Worked as a backend developer and made APIs for backend using Node.js',
-        'Implemented faculty and admin portal.Ensured faculty authentication on faculty portal and admin authentication on admin portal.'
+        'Led a team of 5 members to successfully complete a full-stack project.',
+        'Primarily focused on backend development, while also contributing to frontend tasks.',
+        'Developed a responsive website with secure admin login for room status updates.',
+        'Created and managed APIs, leveraging Context API for global state management.'
         ]
     }
 ]

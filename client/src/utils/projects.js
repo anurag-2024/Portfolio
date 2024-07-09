@@ -40,7 +40,8 @@ export const projects = [
         description: 'Here you can find different courses related to different fields and if you want to study from the course just add it to cart and do the payment and then enjoy your lessons.For payment razorpay is used so you can have multiple options to do payment. You can see your enrolled courses also in Profile section with the status of course.',
         image: project2,
         GitHub: 'https://github.com/anurag-2024/EduVibe',
-        techStack: ['React', 'NodeJs', 'MongoDB']
+        techStack: ['React', 'NodeJs', 'MongoDB'],
+        live: 'https://edu-vibe-eta.vercel.app/'
       },
       {
         id: 4,
