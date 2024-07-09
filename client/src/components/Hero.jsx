@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
             <div className='hero-buttons'>
               <div className='hero-button-2'>
-                <Link to='https://drive.google.com/file/d/1Kx9wcGBEwi2XC-NkSXiCf6ds8C_CFTTs/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+                <Link to='https://drive.google.com/file/d/1NqACuZMwX_7r_Z8iJ7L4IucH0U1nx9Kx/view?usp=sharing' target="_blank" rel="noopener noreferrer">
                 <button >
                   Resume
                   <MdDownload />
