@@ -32,7 +32,7 @@ export const projects = [
         image: project3,
         GitHub: 'https://github.com/anurag-2024/iiitu-website',
         techStack: ['React', 'NodeJs', 'MongoDB'],
-        live: 'https://iiitu-website.vercel.app/'
+        live: 'https://iiitu.ac.in/'
       },
       {
         id: 2,
