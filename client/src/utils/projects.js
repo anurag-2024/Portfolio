@@ -49,7 +49,8 @@ export const projects = [
         description: 'This is a web clone of Instagram made with the help of React and NodeJS. Here you can post images and see the posts of other users. Also, you can like and comment on the posts. Also, you can see the profile of other users. It is very similar to Instagram Web and tried to replicate many functionality of Instagram Web.',
         image: project4,
         GitHub: 'https://github.com/anurag-2024/Instagram-Clone',
-        techStack: ['React', 'NodeJs', 'MongoDB']
+        techStack: ['React', 'NodeJs', 'MongoDB'],
+        live: 'https://instagram-clone-ashen-ten.vercel.app/'
       },
       {
         id: 6,
