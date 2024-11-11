@@ -1,24 +1,25 @@
 import img1 from '../assets/carrer/carrer-1.webp'
 import img2 from '../assets/carrer/carrer-2.png'
 import img3 from '../assets/carrer/carrer-3.png'
+import img4 from '../assets/carrer/carrer-4.png'
 
 export const work = [
     {
-        date: 'July 2024- Present',
-        icon: img3,
-        title: 'Backend Developer',
-        company: 'Bista Technologies Inc.',
+        date: 'Sep 2024- Present',
+        icon: img4,
+        title: 'Full Stack Developer Intern',
+        company: 'Rehaabit',
         description: [
-            'Engineered scalable backend architecture using Node.js, Express, and MongoDB for the platform.',
-            'Integrated third-party email services for automated user notifications and communications.',
-            'Developed and optimized RESTful APIs for seamless frontend-backend integration.',
-            'Collaborated with cross-functional teams to ensure efficient deployment and system integration.',
+            'Improved frontend design and made the website responsive using Tailwind CSS for enhanced cross-device compatibility.',
+            'Developed an interactive admin panel dashboard using React, streamlining data management and user workflows.',
+            'Implemented search functionality, enabling fast and accurate search across the platform.',
+            'Fixed bugs and integrated Redux for efficient state management in the Node.js and MongoDB backend.'
         ]
     },
     {
-        date: 'Apr 2024- Aug 2024',
+        date: 'Apr 2024- Present',
         icon: img1,
-        title: 'Backend Developer',
+        title: 'Development Team Member',
         company: 'IIIT Una',
         description: [
             'Developed backend APIs using Node.js to support faculty and admin portals.',
@@ -27,15 +28,15 @@ export const work = [
         ]
     },
     {
-        date: 'Jun 2024- July 2024',
-        icon: img2,
-        title: 'Backend Developer',
-        company: 'SharpCarrer Technologies',
+        date: 'July 2024- Sep 2024',
+        icon: img3,
+        title: 'Backend Developer Intern',
+        company: 'Bista Technologies Inc.',
         description: [
-            'Led a team of 5 members to successfully complete a full-stack project.',
-            'Primarily focused on backend development, while also contributing to frontend tasks.',
-            'Developed a responsive website with secure admin login for room status updates.',
-            'Created and managed APIs, leveraging Context API for global state management.'
+            'Engineered scalable backend architecture using Node.js, Express, and MongoDB for the platform.',
+            'Integrated third-party email services for automated user notifications and communications.',
+            'Developed and optimized RESTful APIs for seamless frontend-backend integration.',
+            'Collaborated with cross-functional teams to ensure efficient deployment and system integration.',
         ]
     }
 ]
