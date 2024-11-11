@@ -7,6 +7,7 @@ import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { VscThreeBars } from "react-icons/vsc";
+import { SiCodechef } from "react-icons/si";
 const Navbar = () => {
     const [menu, setmenu] = useState(false);
     const [menuName, setmenuName] = useState("Home");
@@ -73,6 +74,11 @@ const Navbar = () => {
                             <div className='connections-item'>
                                 <Link to='https://leetcode.com/u/anurag_patel2420/' target="_blank" rel="noopener noreferrer">
                                     <SiLeetcode />
+                                </Link>
+                            </div>
+                            <div className='connections-item'>
+                                <Link to='https://www.codechef.com/users/anurag_p2024' target="_blank" rel="noopener noreferrer">
+                                    <SiCodechef />
                                 </Link>
                             </div>
                         </div>

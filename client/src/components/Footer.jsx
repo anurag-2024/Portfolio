@@ -4,6 +4,7 @@ import logo from '../assets/img/logo.png'
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
+import { SiCodechef } from "react-icons/si";
 import { Link } from 'react-router-dom'
 const Footer = () => {
     const year=new Date().getFullYear();
@@ -30,6 +31,11 @@ const Footer = () => {
                             <div className='connections-item'>
                                 <Link to='https://leetcode.com/u/anurag_patel2420/' target="_blank" rel="noopener noreferrer">
                                     <SiLeetcode />
+                                </Link>
+                            </div>
+                            <div className='connections-item'>
+                                <Link to='https://www.codechef.com/users/anurag_p2024' target="_blank" rel="noopener noreferrer">
+                                    <SiCodechef />
                                 </Link>
                             </div>
                         </div>

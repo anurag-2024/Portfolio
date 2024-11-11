@@ -8,6 +8,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import { CiLocationOn } from 'react-icons/ci';
 import { Link } from 'react-router-dom';
+import { SiCodechef } from 'react-icons/si';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -154,6 +155,11 @@ const Contact = () => {
                                 <SiLeetcode />
                             </Link>
                         </div>
+                        <div className='connections-item'>
+                                <Link to='https://www.codechef.com/users/anurag_p2024' target="_blank" rel="noopener noreferrer">
+                                    <SiCodechef />
+                                </Link>
+                            </div>
                     </div>
                 </div>
             </div>
