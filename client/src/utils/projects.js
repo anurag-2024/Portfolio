@@ -6,6 +6,7 @@ import project5 from '../assets/project/p5.png';
 import project6 from '../assets/project/p6.png';
 import project7 from '../assets/project/p7.png';
 import project8 from '../assets/project/p8.png';
+import project9 from '../assets/project/p9.png';
 export const projects = [
       {
         id: 1,
@@ -15,6 +16,15 @@ export const projects = [
         GitHub: 'https://github.com/anurag-2024/TravelHub',
         techStack: ['React', 'NodeJs', 'MongoDB', 'Stripe'],
         live: 'https://travel-hub-ruddy.vercel.app/'
+      },
+      {
+        id: 9,
+        title: 'ChatGPT',
+        description: 'This is a Next.js (App Router) TypeScript project that provides a ChatGPT-style interface with streaming responses, a saved conversations sidebar, and an Image Library for generated images.',
+        image: project9,
+        GitHub: 'https://github.com/anurag-2024/gpt',
+        techStack: ['NextJs', 'MongoDB', 'Gemini API', 'TailwindCSS'],
+        live: 'https://chattgptt.vercel.app/'
       },
       {
         id: 8,
