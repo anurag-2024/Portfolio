@@ -3,10 +3,23 @@ import img2 from '../assets/carrer/carrer-2.png'
 import img3 from '../assets/carrer/carrer-3.png'
 import img4 from '../assets/carrer/carrer-4.png'
 import img5 from '../assets/carrer/career-5.avif'
+import img6 from '../assets/carrer/carrer-5.png'
 
 export const work = [
     {
-        date: 'Feb 2025- Present',
+        date: 'Dec 2025- Present',
+        icon: img6,
+        title: 'SDE Intern',
+        company: 'CloudSEK',
+        description: [
+            "Engineered Incident/Event Management microservices (NestJS, Golang), made async worker-based deletion architecture ensuring data consistency",
+            "Mitigated production-critical issues (OOM, cost/risk mismatches, Redis outages with SQL fallback), improving system reliability.",
+            "Worked on automation scripts leveraging SQL tuning, batching, and pagination to handle high-volume datasets efficiently.",
+            "Designed an internal lifecycle tracing system for incidents and events, accelerating cross-team production debugging."
+        ]
+    },
+    {
+        date: 'Feb 2025- Aug 2025',
         icon: img5,
         title: 'SDE Intern',
         company: 'Zero65 Technologies Pvt. Ltd.',

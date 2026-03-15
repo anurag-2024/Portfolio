@@ -36,7 +36,7 @@ $carousel-bg-color: #eaeaea;
         width: 80%;
         background-color: transparent;
         padding: 1rem;
-        overflow: hidden;
+        overflow-x: auto;
         justify-content: space-between;
         .rfm-marquee-container {
             .rfm-overlay::after,
@@ -47,6 +47,13 @@ $carousel-bg-color: #eaeaea;
         .react-fast-marquee {
             display: flex;
             align-items: center;
+        }
+        &::-webkit-scrollbar {
+            height: 5px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
         }
     }
 }

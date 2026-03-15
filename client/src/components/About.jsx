@@ -16,7 +16,7 @@ const About = () => {
                 <h1>WHO I AM?</h1>
               </div>
               <p>
-              I'm Anurag Patel, a Full-Stack Web Developer. Currently pursuing a B.Tech in Computer Science at IIIT Una, I specialize in creating responsive web applications using React, Node.js, and MongoDB. With a strong foundation in C, C++, and JavaScript, I have experience in developing web applications using MERN stack. I am always eager to learn new technologies and improve my skills. I am a quick learner and a team player. I'm passionate about coding and continuously learning to innovate in the tech world.
+             I’m Anurag Patel, a Computer Science undergraduate at IIIT Una passionate about building scalable web applications and backend systems. I have hands-on experience working on production systems during my internship at CloudSEK, where I built an internal Event Lifecycle Tool used by engineering and customer teams to trace events and debug production issues. I enjoy designing APIs, improving system reliability, and solving real-world engineering problems using technologies like Node.js, PostgreSQL, MongoDB, Redis, and modern JavaScript frameworks, while continuously learning and growing as a software engineer.
               </p>
             </div>
             <div className='about-img'>

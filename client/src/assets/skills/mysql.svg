@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="MySQL logo">
+  <rect width="96" height="96" rx="18" fill="#1d2a3a" />
+  <path d="M26 62c4-10 12-18 23-20 9-2 17 0 24 6" fill="none" stroke="#f29111" stroke-width="6" stroke-linecap="round" />
+  <path d="M28 50c6-8 12-13 19-14" fill="none" stroke="#00758f" stroke-width="6" stroke-linecap="round" />
+  <circle cx="64" cy="38" r="4" fill="#fff" />
+</svg>
